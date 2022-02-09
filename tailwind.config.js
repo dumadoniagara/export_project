@@ -8,6 +8,10 @@ module.exports = {
       fontFamily: {
         inter: ['Inter']
       },
+      colors: {
+        greenWest: '#489a2f',
+        orangeWest: '#f35c27',
+      }
     },
   },
   plugins: [],

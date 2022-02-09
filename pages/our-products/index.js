@@ -1,15 +1,15 @@
 import react from "react";
 import Navbar from "../../components/navbar";
 
-const ProductsPage = () => {
-    return (
+const OurProductsPage = () => {
+    return(
         <div>
-            <Navbar />
-            <div className="px-16 pt-20">
-                Ini Products Page
-            </div>
+        <Navbar />
+        <div className="px-16 pt-20">
+            Our products page
         </div>
+    </div>
     )
 }
 
-export default ProductsPage;
+export default OurProductsPage;
