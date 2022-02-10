@@ -44,7 +44,7 @@ const Navbar = () => {
                         <Link className="" href="/our-products">
                             <div className={`border-b-2 border-transparent lg:hover:border-orangeWest mr-8 cursor-pointer`}>
                                 <a className={`${router.pathname == "/our-products" ? "text-orangeWest font-semibold" : ""}`}>
-                                    Our Products
+                                    Product
                                 </a>
                             </div>
                         </Link>

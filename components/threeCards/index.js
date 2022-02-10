@@ -11,7 +11,7 @@ const ThreeCards = () => {
                         </svg>
                     </div>
                     <div className="text-center mt-5 text-gray-400">
-                        <span className="font-semibold text-gray-400">(+ 62) 878-3740-8093</span>
+                        <span className="font-semibold text-gray-400">(+ 62) 812-2001-1064</span>
                     </div>
                     <div className="text-center text-gray-400 mt-2">Contact us at following number
                     </div>
