@@ -8,6 +8,7 @@ import ThreeCards from '../components/threeCards';
 import imgAren from '../public/images/kebun-aren3.jpg';
 import imgProduct from '../public/images/product-aren.jpeg';
 import Footer from '../components/footer';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -18,7 +19,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Paralax />
+      <Paralax isHomePage={true}>
+        <div className="text-white text-4xl font-semibold">
+          WELCOME TO WEST JAVA PALM SUGAR
+        </div>
+      </Paralax>
       <ThreeCards />
 
       <div className='pt-2 p-16 font-inter max-w-5xl mx-auto'>
@@ -64,9 +69,11 @@ export default function Home() {
             <div className='mt-3 font-light'>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
               <div className='flex justify-center mt-10'>
-                <button className='transition ease-in-out delay-150 p-2 px-4 bg-orangeWest text-center text-white font-semibold rounded-2xl hover:bg-greenWest hover:-translate-y-1 hover:scale-110 duration-300'>
-                  See Our Product
-                </button>
+                <Link href={'/our-products'}>
+                  <button className='transition ease-in-out delay-150 p-2 px-4 bg-orangeWest text-center text-white font-semibold rounded-2xl hover:bg-greenWest hover:-translate-y-1 hover:scale-110 duration-300'>
+                    See Our Product
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
