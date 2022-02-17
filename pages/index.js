@@ -47,7 +47,6 @@ export default function Home() {
               <div className="bg-black bg-opacity-20 w-full h-full"></div>
             </div>
           </div>
-
         </div>
       </div>
       <div className='pt-2 p-16 font-inter max-w-5xl mx-auto pb-48'>
