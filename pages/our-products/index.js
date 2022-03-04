@@ -6,7 +6,7 @@ import Footer from "../../components/footer";
 
 const OurProductsPage = () => {
     return (
-        <div>
+        <div className="bg-white overflow-x-hidden">
             <Navbar />
             <Paralax isHomePage={false}>
                 <div className="text-white text-4xl font-semibold">
@@ -18,8 +18,6 @@ const OurProductsPage = () => {
             </div>
             <div className="max-w-4xl mt-2 mx-auto mb-10">
                 <div className="flex flex-wrap justify-center">
-                    <CardProduct />
-                    <CardProduct />
                     <CardProduct />
                     <CardProduct />
                     <CardProduct />

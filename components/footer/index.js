@@ -6,18 +6,19 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <div className="bg-[#dddddd] h-full w-full flex justify-center">
-            <div className=" flex sm:flex-row flex-col p-16 text-gray-600 max-w-5xl">
-                <div className="brand sm:w-[50rem] w-96 h-full mr-16">
+            <div className=" flex lg:flex-row flex-col p-16 text-gray-600 sm:px-10 sm:items-start max-w-5xl mx-auto">
+                <div className="w-[45rem] brand md:pl-0 pl-48">
                     <Image
                         src={Logo}
+                        responsive={true}
                         width={275}
                         height={75}
                     />
-                    <div className="mt-5 text-md font-light">
+                    <div className="mt-5 text-md font-light w-[360px] sm:w-full">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
-                <div className="w-[45rem] h-full mt-5 sm:mt-0">
+                <div className="w-[45rem] h-full mt-8 sm:mt-5 sm:mx-auto md:pl-0 pl-48 lg:ml-14">
                     <div className="font-semibold text-2xl pb-5">Site Map</div>
                     <Link href={'/'}>
                         <div className="font-light text-lg cursor-pointer">
@@ -35,7 +36,7 @@ const Footer = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="w-full h-full mt-5 sm:mt-0">
+                <div className="w-[550px] sm:w-full h-full mt-8 sm:mt-5 md:pl-0 pl-48">
                     <div className="text-2xl font-semibold">Contact</div>
                     <div className="text-lg font-light mt-3 flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 mr-3" viewBox="0 0 20 20" fill="currentColor">
