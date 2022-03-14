@@ -18,7 +18,7 @@ const AboutUsPage = () => {
             <div className="max-w-4xl mt-10 mx-auto mb-36">
                 <div className=' flex flex-col lg:flex-row lg:justify-between items-center sm:mt-10 sm:justify-center'>
                     <div className='text-wrapper max-w-sm pt-16 mr-0 sm:mr-16'>
-                        <div className='text-gray-500'>Why West Java Palm Sugar ?</div>
+                        <div className='text-gray-500 underline'>About us</div>
                         <div className='text-4xl mt-5'>We only provide <span className='font-semibold'>quality</span> products for you <span className='font-semibold'>classy</span> customers.</div>
                         <div className='mt-3 font-light'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>

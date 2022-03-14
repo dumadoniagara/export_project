@@ -19,8 +19,6 @@ const OurProductsPage = () => {
             <div className="max-w-4xl mt-2 mx-auto mb-10">
                 <div className="flex flex-wrap justify-center">
                     <CardProduct />
-                    <CardProduct />
-                    <CardProduct />
                 </div>
             </div>
             <Footer />

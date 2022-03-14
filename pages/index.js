@@ -30,10 +30,10 @@ export default function Home() {
         <div className=' flex flex-col lg:flex-row lg:justify-between items-center sm:mt-10'>
           <div className='text-wrapper pt-16 mr-0 sm:mr-16'>
             <div className='text-gray-500'>Why West Java Palm Sugar ?</div>
-            <div className='text-4xl mt-5'>We only provide <span className='font-semibold'>quality</span> products for you <span className='font-semibold'>classy</span> customers.</div>
+            <div className='text-4xl mt-5'>We only provide <span className='font-semibold'>quality</span> products for you our customers.</div>
             <div className='mt-3 font-light'>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
-              <p className='mt-2'>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>West java palm sugar is an exporting company. We export our best products from Indonesia. Our signature product is <span className='font-semibold'>west java palm sugar</span> that produce use best quality raw material</p>
+              <p className='mt-2'>We always give our best service and best product for our customers. We are expanding our company and produce more products from Indonesia.</p>
             </div>
           </div>
           <div className='image-wrapper relative flex justify-center items-center max-w-sm mt-16 md:mt-16 sm:left-0 left-5'>
@@ -66,7 +66,7 @@ export default function Home() {
             <div className='text-gray-500'>Our Product</div>
             <div className='text-4xl mt-5'>The Following are the featured products belonging to our company</div>
             <div className='mt-3 font-light'>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+              <p>Check our products below. We still expanding our business to supplies more products from Indonesia, with best quality and competitive price.</p>
               <div className='flex justify-center mt-10'>
                 <Link href={'/our-products'}>
                   <button className='transition ease-in-out delay-150 p-2 px-4 bg-orangeWest text-center text-white font-semibold rounded-2xl hover:bg-greenWest hover:-translate-y-1 hover:scale-110 duration-300'>
